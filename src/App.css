@@ -1,0 +1,27 @@
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+}
+#numeros{
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+#cero{
+  grid-column: 2;
+  grid-row: 4;
+}
+
+#operaciones{
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(1, 1fr);
+}
